@@ -396,3 +396,7 @@ footer, footer * {
 .splitter {
     opacity: 0.5;
 }
+
+.my-container {
+    max-width: 90%;
+}
