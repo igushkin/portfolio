@@ -405,3 +405,13 @@ footer {
 .my-container {
     max-width: 90%;
 }
+
+.css-1i0czjh:hover {
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width: 600px) {
+    .css-rklm6r {
+        margin-left: 15px;
+    }
+}
