@@ -257,7 +257,7 @@ button {
     margin-bottom: 0.5rem;
 }
 
-.block-2, .block-3 {
+.block-2, .block-3, .block-4, .block-5 {
     margin-bottom: 3.5rem;
 }
 
@@ -414,4 +414,21 @@ footer {
     .css-rklm6r {
         margin-left: 15px;
     }
+}
+
+.chakra-text a {
+    display: inline-block;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ffffffa3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
