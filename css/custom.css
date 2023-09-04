@@ -159,7 +159,7 @@ header {
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
     padding: 1rem;
@@ -167,7 +167,7 @@ header {
 }
 
 .main-content {
-    padding-top: 115px;
+    padding-top: 55px;
     padding-bottom: 115px;
     -webkit-padding-start: 1rem;
     padding-inline-start: 1rem;
@@ -417,7 +417,7 @@ footer {
     }
 
     .my-container {
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
     }
 }
